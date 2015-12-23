@@ -1,0 +1,15 @@
+<h1>Goodbye!!!</h1>
+<p>
+	It was nice having you here.
+</p>
+<p>
+Say <%= link_to '<button type="button">Hello</button>'.html_safe, say_hello_path %> again!
+</p>
+</br>
+<p>
+<% for file in @files %>
+	<li>
+		File name is: <%= file %>
+	</li>
+<% end %>
+</p>
